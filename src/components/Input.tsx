@@ -25,7 +25,7 @@ const Input = ({
       )}
       <input
         className={clsx(
-          "border:black delay-50 w-full rounded-xl border-[2px] border-white/10 bg-transparent px-2 py-2 tracking-wider outline-0 transition-all placeholder:text-white/20 hover:border-[#1E88E5]/40 focus:border-[#1E88E5] sm:py-3",
+          "border-black delay-50 w-full rounded-xl border-[2px] border-white/10 bg-transparent px-2 py-2 tracking-wider outline-0 transition-all placeholder:text-white/20 hover:border-[#1E88E5]/40 focus:border-[#1E88E5] sm:py-3",
           disabled && " cursor-not-allowed hover:border-white/10",
           left && "rounded-l-none"
         )}
